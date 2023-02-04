@@ -58,6 +58,6 @@ const miguelito = new Student2({
     email: "correo@gmail.com",
     cursosAprobados: [
         "Curso Marketing Digital"
-    ],
+    ], 
 }
 )
