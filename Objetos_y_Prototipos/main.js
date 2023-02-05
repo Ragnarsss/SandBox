@@ -158,19 +158,19 @@ function videoPlay(id) {
     }
   }
   
-  class BasicStudent extends Student {
-    constructor(props) {
-      super(props);
-    }
+//   class BasicStudent extends Student {
+//     constructor(props) {
+//       super(props);
+//     }
   
-    approveCourse(newCourse) {
-      if (newCourse.lang !== "english") {
-        this.approvedCourses.push(newCourse);
-      } else {
-        console.warn("Lo sentimos, " + this.name + ", no puedes tomar cursos en inglés");
-      }
-    }
-  }
+//     approveCourse(newCourse) {
+//       if (newCourse.lang !== "english")
+//         this.approvedCourses.push(newCourse);
+//       } else {
+//         console.warn("Lo sentimos, " + this.name + ", no puedes tomar cursos en inglés");
+//       }
+//     }
+//   }
   
   class ExpertStudent extends Student {
     constructor(props) {
